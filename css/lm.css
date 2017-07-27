@@ -17,10 +17,10 @@ html {
     font-size: 1.4em;
 }
 
-@media (-webkit-max-device-pixel-ratio: 2), /* Webkit-based browsers */
-(max--moz-device-pixel-ratio: 2),    /* Older Firefox browsers (prior to Firefox 16) */
-(max-resolution: 2dppx),             /* The standard way */
-(max-resolution: 192dpi)             /* dppx fallback */ {
+@media (-webkit-max-device-pixel-ratio: 1.5), /* Webkit-based browsers */
+(max--moz-device-pixel-ratio: 1.5),    /* Older Firefox browsers (prior to Firefox 16) */
+(max-resolution: 1.5dppx),             /* The standard way */
+(max-resolution: 148dpi)             /* dppx fallback */ {
     /* Responsive fonts - Single property - By Michael Riethmuller - https://www.smashingmagazine.com/2016/05/fluid-typography/ */
     html {
         font-size: 0.9em;
