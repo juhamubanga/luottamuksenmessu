@@ -60,27 +60,37 @@ a, a:visited, .act {
 body {
     margin: 0;
 }
-.heading-content, .main-content, .event-next-content, .footer-content {
+.topnavi, .heading-content, .main-content, .event-next-content, .footer-content {
     max-width: 50rem;
     margin: 0 auto;
     padding: 1rem;
 }
-.topnavi{
-    max-width: 50rem;
-    margin: 0 auto;
-    text-align: right;
+.topnavi {
     padding: 0 1rem;
 }
-.lang {
+.topnavi a, topnavi a:visited {
     display: inline-block;
-    padding: 1rem 0 1rem 1rem;
+    padding: 1rem 0;
     font-size: 0.8rem;
+}
+.topnavi .socialmedia {
+    float: left;
+    width: 3em;
+}
+.topnavi .languages {
+    float: right;
+    width: 20em;
+    text-align: right;
+}
+.languages a {
+    padding-left: 1rem;
 }
 .heading{
     height: 32vw;
     background: url(../img/summer.jpg) center center;
     background-size: cover;
     position: relative;
+    clear: both;
 }
 .heading h1 {
     font-size: 2rem;
