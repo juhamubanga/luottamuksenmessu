@@ -14,7 +14,7 @@ p {
 }
 
 html {
-    font-size: 1.4em;
+    font-size: 2em;
 }
 
 @media (-webkit-max-device-pixel-ratio: 1.5), /* Webkit-based browsers */
