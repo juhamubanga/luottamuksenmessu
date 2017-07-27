@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Luottamuksen messu</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/lm.css">
@@ -21,58 +22,66 @@
             </h1>
         </div>
     </div>
+    <div class="event-next">
+        <div class="event-next-content">
+            <span class="datetime">to 27.7 Rukoushetki</span>
+            <a href="#mustasaari" class="location">Mustasaaren toimintakeskus</a>
+        </div>
+    </div>
     <div class="main-content">
         <div class="section">
             <article class="col span_2_of_3">
                 <h2>Taizé-lauluja, hiljaisuutta, rauhaa</h2>
                 <p>Harmonisia Taizé-lauluja toistetaan moneen kertaan, ja voit meditoida niitä sisimmässäsi. Voit myös istua räsymatoilla kauniiden tuohusten ja ikonien äärellä. Saarnan tilalla on hiljaista mietiskelyä, jossa voit etsiä luottamusta ja Jumalan läsnäoloa. Rauha ei ole vain sisäinen asia, vaan Jumala kutsuu meitä rakentamaan rauhaa lähellemme ja koko maailmaan. Rukoushetket ovat ekumeenisia, messut noudattavat luterilaisen kirkon perinnettä. Kaikki ovat tervetulleita! Messun jälkeen on tarjolla teetä.</p>
-                <iframe src="https://www.youtube.com/embed/BR7edB5BcWQ" height="252" width="448" allowfullscreen="" frameborder="0">
-                </iframe>
-                <br><br><br><br>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/BR7edB5BcWQ" height="252" width="448" allowfullscreen="" frameborder="0"></iframe>
+                </div>
             </article>
             <article class="col span_1_of_3">
+                <h2>Tapahtumat</h2>
+                <p>
                 <div id="eventlist">
                     <div class="event">
-                        <div class="datetime">
+                        <span class="datetime">
                             to 27.7 18.30 Rukoushetki
-                        </div>
+                        </span>
                         <a href="#sijainnit" class="location">
                             Mustasaaren toimintakeskus
                         </a>
                     </div>
                     <div class="event">
-                        <div class="datetime">
+                        <span class="datetime">
                             to 3.8 18.30 Rukoushetki
-                        </div>
+                        </span>
                         <a href="#sijainnit" class="location">
                             Mustasaaren toimintakeskus
                         </a>
                     </div>
                     <div class="event">
-                        <div class="datetime">
+                        <span class="datetime">
                             to 10.8 18.30 Rukoushetki
-                        </div>
+                        </span>
                         <a href="#sijainnit" class="location">
                             Mustasaaren toimintakeskus
                         </a>
                     </div>
                     <div class="event">
-                        <div class="datetime">
+                        <span class="datetime">
                             ma 14.8 18.00 Rukoushetki
-                        </div>
+                        </span>
                         <a href="#sijainnit" class="location">
                             Tuomiokirkon krypta
                         </a>
                     </div>
                     <div class="event">
-                        <div class="datetime">
+                        <span class="datetime">
                             ma 21.8 18.00 Rukoushetki
-                        </div>
+                        </span>
                         <a href="#sijainnit" class="location">
                             Tuomiokirkon krypta
                         </a>
                     </div>
-                    <p style="float: right;"><a href="#">Näytä seuraavat...</a></p>
+                </p>
 <!--
                     <div class="event">
                         <div class="datetime">
@@ -107,110 +116,48 @@
                         </a>
                     </div>
                     -->
-                    <table style="display: none;">
-                        <tr>
-                            <td><span class="datetime"> </span></td>
-                            <td>to</td>
-                            <td>27 heinäkuuta</td>
-                            <td>18.30</td>
-                            <td>Rukoushetki</td>
-                            <td><a class="place" href="http://maps.google.com">Mustasaaren toimintakeskus</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class="datetime"> </span></td>
-                            <td>to</td>
-                            <td>3 elokuuta</td>
-                            <td>18.30</td>
-                            <td>Rukoushetki</td>
-                            <td><a class="place" href="http://maps.google.com">Mustasaaren toimintakeskus</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class="datetime"> </span></td>
-                            <td>to</td>
-                            <td>10 elokuuta</td>
-                            <td>18.30</td>
-                            <td>Rukoushetki</td>
-                            <td><a class="place" href="http://maps.google.com">Mustasaaren toimintakeskus</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class="datetime"> </span></td>
-                            <td>ma</td>
-                            <td>14 elokuuta</td>
-                            <td>18.00</td>
-                            <td>Rukoushetki</td>
-                            <td><a class="place" href="http://maps.google.com">Tuomiokirkko, krypta</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class="datetime"> </span></td>
-                            <td>ma</td>
-                            <td>21 elokuuta</td>
-                            <td>18.00</td>
-                            <td>Rukoushetki</td>
-                            <td><a class="place" href="http://maps.google.com">Tuomiokirkko, krypta</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class="datetime"> </span></td>
-                            <td>ma</td>
-                            <td>28 elokuuta</td>
-                            <td>18.00</td>
-                            <td>Rukoushetki</td>
-                            <td><a class="place" href="http://maps.google.com">Tuomiokirkko, krypta</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class="datetime"> </span></td>
-                            <td>ma</td>
-                            <td>4 elokuuta</td>
-                            <td>18.00</td>
-                            <td>Rukoushetki</td>
-                            <td><a class="place" href="http://maps.google.com">Tuomiokirkko, krypta</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class="datetime"> </span></td>
-                            <td>ma</td>
-                            <td>14 elokuuta</td>
-                            <td>18.00</td>
-                            <td>Rukoushetki</td>
-                            <td><a class="place" href="http://maps.google.com">Tuomiokirkko, kappeli</a></td>
-                        </tr>
-                        <tr>
-                            <td><span class="datetime"> </span></td>
-                            <td>pe</td>
-                            <td>8 syyskuuta</td>
-                            <td>18.00</td>
-                            <td>Messu</td>
-                            <td><a class="place" href="http://maps.google.com">Tuomiokirkko, kappeli</a></td>
-                        </tr>
-                    </table>
-                    <!--
-                    <div id="act_expand_eventlist">
-                        <span id="eventlist_show" class="act show">Seuraavat</span>
-                        <span id="eventlist_hide" class="act hide" style="display: none;">Sulje</span>
-                    </div>
-                    -->
                 </div>
-            </article>
+        </article>
         </div>
         <div class="section">
-            <h2>Sijainnit</h2>
+            <h2><i class="fa fa-map-marker"></i> Sijainnit</h2>
             <a id="sijainnit"></a>
             <div class="section">
                 <div class="col span_1_of_3">
-                    <h3>Tuomiokirkon krypta</h3>
-                    <p>Kryptan sisäänkäynti on Kirkkokadun puolella.<br>
-                        <a target="_blank" class="location" href="https://www.google.fi/maps/place/Helsingfors+domkyrka/@60.1705705,24.9507175,17.75z/data=!4m5!3m4!1s0x46920bce46c319b7:0x28a7d7b40911eba2!8m2!3d60.1704191!4d24.9521651">Kartta</a>
-                    </p>
+                    <a id="krypta"></a>
+                    <div class="card">
+                        <h3>Tuomiokirkon krypta</h3>
+                        <p>Kirkkokatu 10</p>
+                        <p>
+                            Rukoushetket maanantaisin klo 18 ja messu kuukauden ensimmäisenä perjantaina klo 18. Kryptaan on esteetön pääsy, mikä helpottaa liikuntaesteisten, vanhusten ja taaperoikäisten mukanaoloa.
+                        </p>
+                        </p>
+                        <p><a target="_blank" class="location" href="https://www.google.fi/maps/place/Helsingfors+domkyrka/@60.1705705,24.9507175,17.75z/data=!4m5!3m4!1s0x46920bce46c319b7:0x28a7d7b40911eba2!8m2!3d60.1704191!4d24.9521651">Kartta</a></p>
+                    </div>
                 </div>
                 <div class="col span_1_of_3">
-                    <h3>Tuomiokirkon kappeli</h3>
-                    <p>Kappeli sijaitsee Senaatintorin puolella kirkkoa, torilta katsoen oikealla puolella, sisäänkäynti rappusten puolivälistä.<br>
-                        <a target="_blank" class="location" href="https://www.google.fi/maps/place/Helsingfors+domkyrka/@60.1705705,24.9507175,17.75z/data=!4m5!3m4!1s0x46920bce46c319b7:0x28a7d7b40911eba2!8m2!3d60.1704191!4d24.9521651">Kartta</a>
-                    </p>
+                    <a id="kappeli"></a>
+                    <div class="card">
+                        <h3>Tuomiokirkon kappeli</h3>
+                        <p>Unioninkatu 29</p>
+                        <p>
+                            Kryptan ollessa varattuna muuhun käyttöön, rukoushetket järjestetään kappelissa.<br>
+                            Kappeli sijaitsee Senaatintorin puolella kirkkoa, torilta katsoen oikealla puolella, sisäänkäynti rappusten puolivälistä.
+                        </p>
+                        <p>
+                            <a target="_blank" class="location" href="https://www.google.fi/maps/place/Helsingfors+domkyrka/@60.1705705,24.9507175,17.75z/data=!4m5!3m4!1s0x46920bce46c319b7:0x28a7d7b40911eba2!8m2!3d60.1704191!4d24.9521651">Kartta</a>
+                        </p>
+                    </div>
                 </div>
                 <div class="col span_1_of_3">
-                    <h3>Mustasaaren toimintakeskus</h3>
-                    <p>Helsingin seurakuntayhtymän omistama saari Helsingin edustalla. Lautta Taivallahdesta Mustasaaren lähtee klo 18.<br>
-                        <a target="_blank" href="https://www.google.fi/maps/dir//Mustasaaren+Toimintakeskuksen,+00101+Helsinki/@60.1763446,24.9064727,17z/data=!4m16!1m7!3m6!1s0x46920a3bbd30ce53:0x29dfcb1a54f12851!2sMustasaaren+Toimintakeskuksen,+00101+Helsinki!3b1!8m2!3d60.1763196!4d24.909697!4m7!1m0!1m5!1m1!1s0x46920a3bbd30ce53:0x29dfcb1a54f12851!2m2!1d24.909697!2d60.1763196" class="location">Kartta</a>
-                    </p>
+                    <a id="mustasaari"></a>
+                    <div class="card">
+                        <h3>Mustasaaren toimintakeskus</h3>
+                        <p>Kesäisin rukoushetket torstaisin klo 18.30 Mustasaaren kappelissa.<br>
+                            Lautta Taivallahdesta Mustasaaren lähtee tasatunnein, rukoushetkeen ehtii klo 18.00 lautalla.<br>
+                            <a target="_blank" href="https://www.google.fi/maps/dir//Mustasaaren+Toimintakeskuksen,+00101+Helsinki/@60.1763446,24.9064727,17z/data=!4m16!1m7!3m6!1s0x46920a3bbd30ce53:0x29dfcb1a54f12851!2sMustasaaren+Toimintakeskuksen,+00101+Helsinki!3b1!8m2!3d60.1763196!4d24.909697!4m7!1m0!1m5!1m1!1s0x46920a3bbd30ce53:0x29dfcb1a54f12851!2m2!1d24.909697!2d60.1763196" class="location">Kartta</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -275,7 +222,7 @@
                     <li><a href="http://www.taize.fr/">Taizé</a></li>
                     <li><a href="http://www.uskotoivorakkaus.fi/">Usko toivo rakkaus </a></li>
                     <li><a href="http://www.tuomasmessu.fi/">Tuomasyhteisö</a></li>
-                    <li><a href="http://www.sinapinsiemen.fi/">Sinapinsiemen</a></li>
+                    <li><a href="http://www.sinapinsiemen.fi/">Sinapinsiemen ry</a></li>
                 </ul>
             </article>
         </div>
