@@ -3,26 +3,27 @@
 @font-face{font-family:Ubuntu;font-style:italic;src:url(../fonts/Ubuntu-RI.ttf)}
 @font-face{font-family:Ubuntu;font-weight:bold;src:url(../fonts/Ubuntu-B.ttf)}
 @font-face{font-family:Ubuntu;font-style:italic;font-weight:bold;src:url(../fonts/Ubuntu-BI.ttf)}
+/* taize.fr text body style*/
 body {
     font-family: Ubuntu, Tahoma;
-    word-spacing: -0.05rem; /* Taizé body spacing*/
+    word-spacing: -0.05rem;
 }
 p {
     line-height: 1.5rem;
     padding-top: 0;
 }
-/* Responsive fonts - Single property - By Michael Riethmuller - Smashingmagazine*/
+/* Responsive fonts - Single property - By Michael Riethmuller - https://www.smashingmagazine.com/2016/05/fluid-typography/ */
 html {
-    font-size: 14px;
+    font-size: 0.9em;
 }
 @media screen and (min-width: 320px) {
     html {
-        font-size: calc(14px + 4 * (100vw - 320px) / 1046);
+        font-size: calc(0.9em + 4 * (100vw - 320px) / 1046);
     }
 }
 @media screen and (min-width: 1366px) {
     html {
-        font-size: 18px;
+        font-size: 1.1em;
     }
 }
 
@@ -35,28 +36,32 @@ a:hover {
 }
 
 /*Colors*/
+/*Dark grey */
 body {
-    color: #282828; /*Dark grey */
+    color: #282828;
 }
+/*Middle grey*/
 h1, h2, h3, footer {
-    color: #555; /*Middle grey*/
+    color: #555;
 }
-#eventlist, .event{
+/*Light grey*/
+#eventlist, .event, footer{
     border-color: #efefef;
 }
-footer {
-    background: #efefef; /*Light grey*/
+.event-next, footer {
+    background: #efefef;
 }
+/*Taizé orange*/
 a, a:visited, .act {
-    color: #f07d00; /*Taizé orange*/
+    color: #f07d00;
 }
 
 
 /*Layout*/
-body{
+body {
     margin: 0;
 }
-.heading-content, .main-content, footer .footer-content {
+.heading-content, .main-content, .event-next-content, .footer-content {
     max-width: 50rem;
     margin: 0 auto;
     padding: 1rem;
@@ -84,31 +89,9 @@ body{
     position: absolute;
     bottom:0;
 }
-/*
-#eventlist {
+.event-next .datetime {
+    margin-right: 1em;
 }
-#eventlist td {
-    padding: 0.25rem 0.2rem;
-    vertical-align: top;
-    white-space: nowrap;
-}
-*/
-#act_expand_eventlist {
-    padding: 0.5rem;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-#act_expand_eventlist span {
-    cursor: pointer;
-}
-
-/* Events */
-#eventlist {
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-}
-
 .event {
     border-top-width: 1px;
     border-top-style: solid;
@@ -121,15 +104,17 @@ body{
 .event .location {
     font-size: 80%;
     margin-top: 0.5rem;
+    white-space: nowrap;
 }
 
-/* Embedded video */
+/* Embedded video by Rachel McCollin - https://www.smashingmagazine.com/2014/02/making-embedded-content-work-in-responsive-design/*/
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 35px;
     height: 0;
     overflow: hidden;
+    margin-bottom: 2em;
 }
 .video-container iframe {
     position: absolute;
@@ -138,19 +123,32 @@ body{
     width: 100%;
     height: 100%;
 }
+.card {
+    padding: 1em;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0.5em;
+    height: 100%;
+}
 
 /* Icons */
 .datetime {
     background: url('../icons/calendar-time.svg') no-repeat left top;
     background-size: 1rem;
-    padding-left: 1.5rem;}
-.location {
-    background: url("../icons/Map_marker_font_awesome.svg") no-repeat left top;
-    background-size: 1rem;
-    padding-left: 1.2rem;
+    padding-left: 1.3rem;
+}
+.location:before {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    content: "\f041";
+    padding-right: 3px;
 }
 
 /* footer bottom but not fixed by https://chrisbracco.com/css-sticky-footer-effect */
+
 footer {
     clear: both;
 }

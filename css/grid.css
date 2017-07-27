@@ -28,9 +28,9 @@
 .col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
 
 
-/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 600 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 	.col { 
 		margin: 1% 0 1% 0%;
 	}
@@ -47,9 +47,9 @@
 	width: 49.2%;
 }
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 600 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 	.span_2_of_2 {
 		width: 100%;
 	}
@@ -74,9 +74,9 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 600 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 	.span_3_of_3 {
 		width: 100%;
 	}
@@ -108,9 +108,9 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 600 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
 	.span_4_of_4 {
 		width: 100%;
 	}
