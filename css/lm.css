@@ -99,10 +99,6 @@ body {
     border-top-style: solid;
     padding: 0.5rem;
 }
-.event .datetime {
-    background: none;
-    padding: 0;
-}
 .event .location {
     font-size: 80%;
     margin-top: 0.5rem;
