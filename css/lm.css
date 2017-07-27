@@ -45,7 +45,7 @@ h1, h2, h3, footer {
     color: #555;
 }
 /*Light grey*/
-#eventlist, .event, footer{
+.event, footer{
     border-color: #efefef;
 }
 .event-next, footer {
@@ -55,7 +55,6 @@ h1, h2, h3, footer {
 a, a:visited, .act {
     color: #f07d00;
 }
-
 
 /*Layout*/
 body {
@@ -91,6 +90,9 @@ body {
 }
 .event-next .datetime {
     margin-right: 1em;
+}
+#eventlist {
+    margin-bottom: 1em;
 }
 .event {
     border-top-width: 1px;
@@ -132,11 +134,6 @@ body {
 }
 
 /* Icons */
-.datetime {
-    background: url('../icons/calendar-time.svg') no-repeat left top;
-    background-size: 1rem;
-    padding-left: 1.3rem;
-}
 .location:before {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -144,7 +141,7 @@ body {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     content: "\f041";
-    padding-right: 3px;
+    padding-right: 0.2em;
 }
 
 /* footer bottom but not fixed by https://chrisbracco.com/css-sticky-footer-effect */
