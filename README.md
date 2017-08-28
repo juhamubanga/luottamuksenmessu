@@ -1,6 +1,8 @@
 # luottamuksenmessu
 Luottamuksen messu - design -ehdotus
 
+https://juhamubanga.github.io/luottamuksenmessu/
+
 ## Visio
 Verkkosivu heijastaa toiminnan arvoja: yksinkertaisuus, yhteisöllisyys, hiljaisuuden viljely
 
