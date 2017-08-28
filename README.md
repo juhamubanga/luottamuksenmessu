@@ -17,7 +17,8 @@ Verkkosivu heijastaa toiminnan arvoja: yksinkertaisuus, yhteisöllisyys, hiljais
 
 ## Status 28.8.2017
 ### Tehty
-- Responsiivinen kirjasinkoko ja kuva
+- HTML/CSS webdesign
+- Responsiivinen typografia ja kuva
 ### Puuttuu
 - Skaalautuminen puhelimille ei toimi (Bootstrap -frameworkin käyttäminen saattaisi ratkaista)
 - Kalenteritoiminnallisuus, automaattisesti vain tulevat tapahtumat
