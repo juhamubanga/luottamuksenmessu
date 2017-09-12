@@ -3,25 +3,14 @@ Luottamuksen messu - design -ehdotus
 
 https://juhamubanga.github.io/luottamuksenmessu/
 
-## Visio
-Verkkosivu heijastaa toiminnan arvoja: yksinkertaisuus, yhteisöllisyys, hiljaisuuden viljely
-
-## Ominaisuudet
-### Yksinkertainen
-- visuaalisesti yksinkertainen, toteutus mahdollisimman vähillä elementeillä
-- tyhjä tila ryhmittelykeinona
-- responsiivinen toteutus, sama sisältö skaalautuu erikokoisille näytöille ja päätelaitteille
-- yksinkertainen ylläpitää
-### Yhteisöllinen
-- Puhutteleva otsikkokuva, joka kutsuu katsojaa mukaan
-- Sisällössä kutsutaan mukaan tekemään
-- Käännetty useammalle kielelle, kutsuu kaikkia mukaan
+## Tarkoitus
+Tiedottaa verkossa Taizé:n innoittamasta Luottamuksen messusta ja rukoushetkistä  paremmin kuin seurakuntien omilla verkkosivuilla on mahdollista. Luottamuksenmessu -verkkosivu löytyy hakukoneilla useammalla kielellä ja ohjaa etsijän paikkakuntakohtaisiin aika- ja paikkatietoihin. Verkkosivun suunnittelu ja toteutus heijastaa toiminnan arvoja: yksinkertaisuus, yhteisöllisyys, hiljaisuuden viljely.
 
 ## Status 28.8.2017
 ### Tehty
 - HTML/CSS webdesign
 - Responsiivinen typografia ja kuva
 ### Puuttuu
-- Skaalautuminen puhelimille ei toimi (Bootstrap -frameworkin käyttäminen saattaisi ratkaista)
+- Skaalautuminen puhelimille ei vielä toimi
 - Kalenteritoiminnallisuus, automaattisesti vain tulevat tapahtumat
-- Useamman paikkakunnan tapahtumat (mietittävä miten)
+- Useamman paikkakunnan tapahtumat (mietittävä miten toteutetaan)
