@@ -10,9 +10,10 @@ Tiedottaa verkossa Taizé:n innoittamasta Luottamuksen messusta ja rukoushetkist
 ### Tehty
 - Responsiivinen layout, typografia ja kuvitus
 ### Puuttuu
-- Lopulliset tekstit: suomi, ruotsi, englanti (venäjä?)
+- Lopulliset tekstit suomeksi
+- Käännökset
 - Tapahtumakalenterin automatisointi, koodinpätkän avulla 5 seuraavaa tapahtumaa esim.
   - Google -kalenterista
   - Tekstitiedostosta Githubissa
 ### Kehitysideoita
-- Kunkin paikan otsikossa voisi olla kuva rakennuksesta elävöittämään ulkoasua ja auttamaan paikan tunnistamisessa
+- Kunkin paikan otsikkopalkkina kuva rakennuksesta elävöittämään ulkoasua ja auttamaan paikan tunnistamisessa
