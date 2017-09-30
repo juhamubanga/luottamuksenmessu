@@ -42,13 +42,13 @@ a, a:visited, .act {
 @media (min-width: 800px) {
     .heading{
         height: 32vw;
-        background: url(../img/summer_large.jpg) center center;
+        background: url(../img/winter_large.jpg) center center;
     }
 }
 @media (max-width: 799px) {
     .heading{
         height: 18rem;
-        background: url(../img/summer_medium.jpg) center center;
+        background: url(../img/winter_medium.jpg) center center;
     }
 }
 .heading {
